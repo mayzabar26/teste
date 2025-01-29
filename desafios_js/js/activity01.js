@@ -2,8 +2,8 @@
 const paragraph = document.getElementById("text")
 const changeBtn = document.getElementById("changebtn")
 
-//Fazer o evento listener para o clique do btn
+//Passo 2: Fazer o evento listener para o clique do btn
 changeBtn.addEventListener("click", () => {
-    //alterar o texto aqui com o textContent
+    //Passo 3: Alterar o texto aqui com o textContent
     paragraph.textContent = "Texto alterado! Parabéns, você conseguiu;"
 })
