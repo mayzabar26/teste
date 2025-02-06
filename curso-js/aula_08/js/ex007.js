@@ -38,7 +38,7 @@ Eles são fundamentais para a criação de condições em estruturas como if, wh
 
 //DESAFIO 1: CALCULADORA
 
-var escolhaPrimeiro = Number(window.prompt("Digite o primeiro número: "))
+/*var escolhaPrimeiro = Number(window.prompt("Digite o primeiro número: "))
 var escolhaSegundo = Number(window.prompt("Digite o segundo número: "))
 var escolhaOperador = window.prompt("Escolha uma operação (+, -, *, /, %): ")
 var resultado;
@@ -64,3 +64,25 @@ switch (escolhaOperador) {
 }
 
 window.alert(`${escolhaPrimeiro} ${escolhaOperador} ${escolhaSegundo} é igual a ${resultado}`)
+*/
+
+
+//DESAFIO 2: IDADE PARA VOTAR
+const ageInput = document.getElementById('age')
+const checkBtn = document.getElementById('check')
+const outputMsg = document.getElementById('output')
+
+checkBtn.addEventListener('click', checkingAge);
+
+function checkingAge () {
+    const age = Number(ageInput.value) //Pegando o valor atualizado do input
+
+    //condição da idade
+    if (isNaN(age) || age <= 0) {
+        outputMsg.textContent = "❌ Please enter a valid age.";
+        outputMsg.style.color = 'red';
+        return;
+    }
+    outputMsg.textContent = age >= 18 ? '✅ You can vote!' : '❌ You cannot vote.';
+    outputMsg.style.color = age >= 18 ? 'green' :'red';
+}
