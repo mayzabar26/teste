@@ -14,7 +14,7 @@ using System;
          animals.Add(new Leao("Nala", 8));
          animals.Add(new Leao("Oscar", 16));
  
-         foreach (Animal animal in Animals)
+         foreach (Animal animal in animals)
          {
             animal.DisplayInfo();
          }

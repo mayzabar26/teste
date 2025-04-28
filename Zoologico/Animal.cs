@@ -34,6 +34,6 @@ public abstract class Animal
 
     public void DisplayInfo()
     {
-        Console.WriteLine($"Name {_name} | Age: {_age} years old.");
+        Console.WriteLine($"Name: {_name} | Age: {_age} years old.");
     }
 }
