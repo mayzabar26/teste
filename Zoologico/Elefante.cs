@@ -1,9 +1,9 @@
 
-public class Leao : Animal
+public class Elefante : Animal
 {
     //Não tem attributes
     //Set constructors
-    public Leao(string name, int age) : base (name, age)
+    public Elefante(string name, int age) : base (name, age)
     {
 
     }
@@ -11,6 +11,6 @@ public class Leao : Animal
     //Comportamento
     public override string GetSound()
     {
-        return "Rooooar!";
+        return "Tram-tram!";
     }
 }
