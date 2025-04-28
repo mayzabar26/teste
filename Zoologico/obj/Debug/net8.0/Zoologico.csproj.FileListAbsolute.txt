@@ -1,0 +1,5 @@
+C:\Users\mayza\teste\Zoologico\obj\Debug\net8.0\Zoologico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mayza\teste\Zoologico\obj\Debug\net8.0\Zoologico.AssemblyInfoInputs.cache
+C:\Users\mayza\teste\Zoologico\obj\Debug\net8.0\Zoologico.AssemblyInfo.cs
+C:\Users\mayza\teste\Zoologico\obj\Debug\net8.0\Zoologico.csproj.CoreCompileInputs.cache
+C:\Users\mayza\teste\Zoologico\obj\Debug\net8.0\Zoologico.sourcelink.json

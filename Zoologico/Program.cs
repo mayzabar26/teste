@@ -16,7 +16,7 @@ using System;
  
          foreach (Animal animal in Animals)
          {
-             animal.DisplayInfo();
+            animal.DisplayInfo();
          }
      }
  }
