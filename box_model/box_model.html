@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <title>Document</title>
+</head>
+
+<style>
+    body{font-family: sans-serif;}
+
+    p{background-color: lightgray;}
+
+    h1{background-color: pink; padding: 16px;}
+
+    /*h2{background-color: aqua; width: 50%; height: 100px; /*evitar usar % em height*/ /*margin: 16px;}*/
+    /*QUANDO USAMOS %, ESTAMOS DEFININDO O VALOR REFERENTE AO ELEMENTO PAI*/
+    /*ENTÃO SE EU COLOCAR "width: 50%" O TAMANHO VAI SER EM RELAÇÃO AO TAMANHO DO ELEMENTO BODY*/
+    /*AO USAR A %, A LARGURA MUDA DE ACORDO COM O TAMANHO DA TELA, DIFERENTE DE USA px, QUE DEIXA O VALOR FIXO*/
+
+    h2 {background-color: aqua; margin-top: 56px; border-bottom: 5px solid rgb(5, 122, 165);}
+
+    .destaque{background-color: orange;}
+
+    .size {height: 70px; width: 50%;}
+    /*Posso usar 2 classes em 1 só elemento. class="destaque size" */
+
+    .padding {padding: 26px;}
+
+    .margin {margin: 50px 0 20px 100px;}
+
+    .border {border: 4px dotted green; padding: 10px;  }
+</style>
+
+<body>
+    <h1>Box Model</h1>
+
+    <h2>Width e Height</h2>
+
+    <p>Aprendendo sobre Box Model no HTML</p>
+    <p class="destaque size">Aprendendo sobre Box Model no HTML</p>
+    <p>Aprendendo sobre Box Model no HTML</p>
+
+    <h2>Padding</h2>
+
+    <p>Aprendendo sobre Box Model no HTML</p>
+    <p class="destaque padding">Aprendendo sobre Box Model no HTML</p>
+    <p>Aprendendo sobre Box Model no HTML</p>
+
+    <h2>Margin</h2>
+
+    <p>Aprendendo sobre Box Model no HTML</p>
+    <p class="destaque margin">Aprendendo sobre Box Model no HTML</p>
+    <p>Aprendendo sobre Box Model no HTML</p>
+
+    <h2>Border</h2>
+
+    <p>Aprendendo sobre Box Model no HTML</p>
+    <p class="destaque border">Aprendendo sobre Box Model no HTML</p>
+    <p>Aprendendo sobre Box Model no HTML</p>
+
+</body>
+</html>
