@@ -16,7 +16,8 @@
             background-color: palevioletred;
             color: white;
             font-size: 36px;
-            text-align: center;}
+            text-align: center;
+            margin-bottom: 0;}
 
         h2 {
             background-color: lightpink;
@@ -35,6 +36,7 @@
         a:hover {text-decoration: underline;}
 
         .p1 {text-align: center; }
+        .subtitle {margin-top: 0; background-color: lightpink;}
 
         .p2 { margin: 0;}
 
@@ -45,13 +47,36 @@
         ul {padding-left: 0;}
 
         li {list-style-position: inside;}
+
+        .menu{text-align: end;}
+
+        .menu li{
+            display: inline-block;
+            background-color: black;
+            list-style: none;
+            padding: 0;
+            margin: 5px;
+        }
+
+        .menu a {
+            display: inline-block;
+            color: white;
+            padding: 16px;
+        }
+
+        .menu a:hover {text-decoration: none; background-color: pink; color: black;}
     </style>
 </head>
 
 <body>
     <section class="name">
         <h1>João da Silva</h1>
-        <p class="p1">Brasileiro, solteiro, 30 anos.</p>
+        <p class="p1 subtitle">Brasileiro, solteiro, 30 anos.</p>
+        <ul class="menu">
+            <li><a href="https://www.youtube.com/">YouTube</a></li>
+            <li><a href="https://github.com/">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/mayza-barbosa-9326ba177/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BKXlQVYWbS%2BqUarhpzBv04w%3D%3D">LinkedIn</a></li>
+        </ul>
     </section>
 
     <section class="goal">
