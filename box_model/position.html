@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+
+    <style>
+        body{
+            font-family: sans-serif;
+            padding: 20px;
+            height: 2000px; /*para poder rolar a página*/
+        }
+
+        h1 {
+            width: 30%; 
+            padding: 20px;
+            background-color: red; 
+            text-align: center; 
+            justify-content: center;
+            margin: auto; 
+            color: aliceblue;
+        }
+
+        h2 {text-align: center; justify-content: center; padding: 8px;}
+
+        p {display: inline-block; margin-top: 35px;}
+
+        .box {
+            width: 150px;
+            height: 80px;
+            background-color: lightblue;
+            margin: 20px;
+            margin-bottom: 30px;
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* STATIC (padrão) */
+        .static {
+            position: static;
+            /*NÃO ACEITA TOP | BOTTOM | RIGHT | LEFT*/
+        }
+
+        /* STICKY (Mistura de relative e fixed, preso até certo ponto)*/
+        .sticky {position: sticky;}
+        
+        /* FIXED (fica fixo na tela, mesmo rolando a página) */
+        .fixed {position: fixed;}
+        
+        /* RELATIVE (mantém espaço no layout, mas pode se mover) */
+        .relative {position: relative;}
+        
+        /* ABSOLUTE (posiciona em relação ao ancestral posicionado ou ao body) */
+        .absolute {position: absolute;}
+
+    </style>
+</head>
+
+<body>
+    <h1>Exemplos de position</h1>
+
+    <section class="box static">
+        <h2>STATIC</h2>
+    </section>
+
+    <section class="box relative">
+        <h2>RELATIVE</h2>
+    </section>
+
+    <section class="box sticky">
+        <h2>STICKY</h2>
+        <p>Texto longo para rolar a página...</p>
+        <p>Texto longo para rolar a página...</p>
+        <p>Texto longo para rolar a página...</p>
+        <p>Texto longo para rolar a página...</p>
+        <p>Texto longo para rolar a página...</p>
+    </section>
+
+    <section class="box absolute">
+        <h2>ABSOLUTE</h2>
+    </section>
+
+    <section class="box fixed">
+        <h2>FIXED</h2>
+    </section>
+
+
+</body>
+</html>
